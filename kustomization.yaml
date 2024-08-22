@@ -13,3 +13,6 @@ patches:
 - path: overlays/labels.yaml
   target:
     kind: Deployment
+- path: overlays/service.yaml
+  target:
+    kind: Service
