@@ -1,0 +1,11 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: podinfo2
+  labels:
+    naik.naveen.did/this: "true"
+spec:
+  template:
+    metadata:
+      annotations:
+        naik/naveen: "true"
